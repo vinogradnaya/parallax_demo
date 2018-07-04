@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="flickrPhotoCell" rowHeight="504" id="KGk-i7-Jjw" customClass="KVTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uZf-RN-zKE" userLabel="Photo View" customClass="KVImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="503"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="320" id="Ng6-oP-vGt"/>
+                            <constraint firstAttribute="height" constant="503" id="wUn-Sy-hmn"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WyE-VW-gvg" userLabel="Title View">
+                        <rect key="frame" x="0.0" y="419" width="320" height="84"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="cod-d8-gSq" userLabel="Title Label">
+                                <rect key="frame" x="15" y="15" width="290" height="54"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.42352941179999998" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cod-d8-gSq" firstAttribute="leading" secondItem="WyE-VW-gvg" secondAttribute="leading" constant="15" id="24W-YC-sHi"/>
+                            <constraint firstAttribute="bottom" secondItem="cod-d8-gSq" secondAttribute="bottom" constant="15" id="U5f-dt-rHV"/>
+                            <constraint firstItem="cod-d8-gSq" firstAttribute="top" secondItem="WyE-VW-gvg" secondAttribute="top" constant="15" id="cng-VA-1M2"/>
+                            <constraint firstAttribute="trailing" secondItem="cod-d8-gSq" secondAttribute="trailing" constant="15" id="yrj-21-zB2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uZf-RN-zKE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HxD-FB-ZbS"/>
+                    <constraint firstAttribute="bottom" secondItem="WyE-VW-gvg" secondAttribute="bottom" id="JkE-vY-Cy8"/>
+                    <constraint firstItem="uZf-RN-zKE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bhZ-bU-qsp"/>
+                    <constraint firstItem="WyE-VW-gvg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gRa-W7-mOg"/>
+                    <constraint firstAttribute="trailing" secondItem="WyE-VW-gvg" secondAttribute="trailing" id="lRa-MH-epZ"/>
+                    <constraint firstItem="WyE-VW-gvg" firstAttribute="height" secondItem="uZf-RN-zKE" secondAttribute="height" multiplier="0.167" id="wec-qY-hOt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="photoView" destination="uZf-RN-zKE" id="uXI-E4-nPa"/>
+                <outlet property="photoViewHeightConstraint" destination="wUn-Sy-hmn" id="Ifz-bO-4OK"/>
+                <outlet property="photoViewTopConstraint" destination="HxD-FB-ZbS" id="pcQ-wP-LEK"/>
+                <outlet property="photoViewWidthConstraint" destination="Ng6-oP-vGt" id="SOm-Vh-OCF"/>
+                <outlet property="textView" destination="WyE-VW-gvg" id="D0b-zV-hPi"/>
+                <outlet property="titleLabel" destination="cod-d8-gSq" id="JT0-EP-6Lg"/>
+            </connections>
+            <point key="canvasLocation" x="-245" y="318"/>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

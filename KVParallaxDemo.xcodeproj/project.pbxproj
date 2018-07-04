@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0CE3921BAD7ECC0025FB72 /* KVAPoDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CE3911BAD7ECC0025FB72 /* KVAPoDClient.m */; };
+		1B0CE3931BAD7ECC0025FB72 /* KVAPoDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CE3911BAD7ECC0025FB72 /* KVAPoDClient.m */; };
+		1B0CE3961BAD89300025FB72 /* KVAPoDItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CE3951BAD89300025FB72 /* KVAPoDItem.m */; };
+		1B0CE3971BAD89300025FB72 /* KVAPoDItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CE3951BAD89300025FB72 /* KVAPoDItem.m */; };
+		1B0CE39B1BAD8A250025FB72 /* NSDictionary+KVExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CE39A1BAD8A250025FB72 /* NSDictionary+KVExtras.m */; };
+		1B0CE39C1BAD8A250025FB72 /* NSDictionary+KVExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CE39A1BAD8A250025FB72 /* NSDictionary+KVExtras.m */; };
+		589D3FCC1A89382600B7239F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 589D3FCB1A89382600B7239F /* main.m */; };
+		589D3FCF1A89382600B7239F /* KVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 589D3FCE1A89382600B7239F /* KVAppDelegate.m */; };
+		589D3FD51A89382600B7239F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589D3FD31A89382600B7239F /* Main.storyboard */; };
+		589D3FD71A89382600B7239F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589D3FD61A89382600B7239F /* Images.xcassets */; };
+		589D3FDA1A89382600B7239F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589D3FD81A89382600B7239F /* LaunchScreen.xib */; };
+		589D3FE61A89382600B7239F /* KVParallaxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 589D3FE51A89382600B7239F /* KVParallaxDemoTests.m */; };
+		589D40011A89396A00B7239F /* KVParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589D3FF11A89396A00B7239F /* KVParallaxViewController.m */; };
+		589D40021A89396A00B7239F /* KVFlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 589D3FF41A89396A00B7239F /* KVFlickrPhoto.m */; };
+		589D40031A89396A00B7239F /* KVHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 589D3FF61A89396A00B7239F /* KVHTTPClient.m */; };
+		589D40041A89396A00B7239F /* KVImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 589D3FF81A89396A00B7239F /* KVImageCache.m */; };
+		589D40051A89396A00B7239F /* flickr_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 589D3FFA1A89396A00B7239F /* flickr_background.png */; };
+		589D40061A89396A00B7239F /* KVImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589D3FFD1A89396A00B7239F /* KVImageView.m */; };
+		589D40071A89396A00B7239F /* KVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 589D3FFF1A89396A00B7239F /* KVTableViewCell.m */; };
+		589D40081A89396A00B7239F /* KVTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589D40001A89396A00B7239F /* KVTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		589D3FE01A89382600B7239F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 589D3FBE1A89382600B7239F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 589D3FC51A89382600B7239F;
+			remoteInfo = KVParallaxDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0CE3901BAD7ECC0025FB72 /* KVAPoDClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVAPoDClient.h; path = KVParallaxDemo/Networking/KVAPoDClient.h; sourceTree = SOURCE_ROOT; };
+		1B0CE3911BAD7ECC0025FB72 /* KVAPoDClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVAPoDClient.m; path = KVParallaxDemo/Networking/KVAPoDClient.m; sourceTree = SOURCE_ROOT; };
+		1B0CE3941BAD89300025FB72 /* KVAPoDItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVAPoDItem.h; sourceTree = "<group>"; };
+		1B0CE3951BAD89300025FB72 /* KVAPoDItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVAPoDItem.m; sourceTree = "<group>"; };
+		1B0CE3991BAD8A250025FB72 /* NSDictionary+KVExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KVExtras.h"; sourceTree = "<group>"; };
+		1B0CE39A1BAD8A250025FB72 /* NSDictionary+KVExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KVExtras.m"; sourceTree = "<group>"; };
+		589D3FC61A89382600B7239F /* KVParallaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVParallaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		589D3FCA1A89382600B7239F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589D3FCB1A89382600B7239F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		589D3FCD1A89382600B7239F /* KVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVAppDelegate.h; sourceTree = "<group>"; };
+		589D3FCE1A89382600B7239F /* KVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVAppDelegate.m; sourceTree = "<group>"; };
+		589D3FD41A89382600B7239F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		589D3FD61A89382600B7239F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		589D3FD91A89382600B7239F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		589D3FDF1A89382600B7239F /* KVParallaxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVParallaxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		589D3FE41A89382600B7239F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589D3FE51A89382600B7239F /* KVParallaxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVParallaxDemoTests.m; sourceTree = "<group>"; };
+		589D3FF01A89396A00B7239F /* KVParallaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVParallaxViewController.h; sourceTree = "<group>"; };
+		589D3FF11A89396A00B7239F /* KVParallaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVParallaxViewController.m; sourceTree = "<group>"; };
+		589D3FF31A89396A00B7239F /* KVFlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVFlickrPhoto.h; sourceTree = "<group>"; };
+		589D3FF41A89396A00B7239F /* KVFlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVFlickrPhoto.m; sourceTree = "<group>"; };
+		589D3FF51A89396A00B7239F /* KVHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVHTTPClient.h; sourceTree = "<group>"; };
+		589D3FF61A89396A00B7239F /* KVHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVHTTPClient.m; sourceTree = "<group>"; };
+		589D3FF71A89396A00B7239F /* KVImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVImageCache.h; sourceTree = "<group>"; };
+		589D3FF81A89396A00B7239F /* KVImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVImageCache.m; sourceTree = "<group>"; };
+		589D3FFA1A89396A00B7239F /* flickr_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flickr_background.png; sourceTree = "<group>"; };
+		589D3FFC1A89396A00B7239F /* KVImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVImageView.h; sourceTree = "<group>"; };
+		589D3FFD1A89396A00B7239F /* KVImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVImageView.m; sourceTree = "<group>"; };
+		589D3FFE1A89396A00B7239F /* KVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTableViewCell.h; sourceTree = "<group>"; };
+		589D3FFF1A89396A00B7239F /* KVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTableViewCell.m; sourceTree = "<group>"; };
+		589D40001A89396A00B7239F /* KVTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		589D3FC31A89382600B7239F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589D3FDC1A89382600B7239F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0CE3981BAD89B30025FB72 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1B0CE3991BAD8A250025FB72 /* NSDictionary+KVExtras.h */,
+				1B0CE39A1BAD8A250025FB72 /* NSDictionary+KVExtras.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		589D3FBD1A89382600B7239F = {
+			isa = PBXGroup;
+			children = (
+				589D3FC81A89382600B7239F /* KVParallaxDemo */,
+				589D3FE21A89382600B7239F /* KVParallaxDemoTests */,
+				589D3FC71A89382600B7239F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		589D3FC71A89382600B7239F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				589D3FC61A89382600B7239F /* KVParallaxDemo.app */,
+				589D3FDF1A89382600B7239F /* KVParallaxDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		589D3FC81A89382600B7239F /* KVParallaxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				589D3FCD1A89382600B7239F /* KVAppDelegate.h */,
+				589D3FCE1A89382600B7239F /* KVAppDelegate.m */,
+				1B0CE3981BAD89B30025FB72 /* Utils */,
+				589D3FEF1A89396A00B7239F /* Controllers */,
+				589D3FF21A89396A00B7239F /* Model */,
+				589D3FFB1A89396A00B7239F /* Views */,
+				589D3FD31A89382600B7239F /* Main.storyboard */,
+				589D3FD61A89382600B7239F /* Images.xcassets */,
+				589D3FD81A89382600B7239F /* LaunchScreen.xib */,
+				589D3FF91A89396A00B7239F /* Resources */,
+				589D3FC91A89382600B7239F /* Supporting Files */,
+			);
+			path = KVParallaxDemo;
+			sourceTree = "<group>";
+		};
+		589D3FC91A89382600B7239F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				589D3FCA1A89382600B7239F /* Info.plist */,
+				589D3FCB1A89382600B7239F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		589D3FE21A89382600B7239F /* KVParallaxDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				589D3FE51A89382600B7239F /* KVParallaxDemoTests.m */,
+				589D3FE31A89382600B7239F /* Supporting Files */,
+			);
+			path = KVParallaxDemoTests;
+			sourceTree = "<group>";
+		};
+		589D3FE31A89382600B7239F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				589D3FE41A89382600B7239F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		589D3FEF1A89396A00B7239F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				589D3FF01A89396A00B7239F /* KVParallaxViewController.h */,
+				589D3FF11A89396A00B7239F /* KVParallaxViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		589D3FF21A89396A00B7239F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				589D3FF31A89396A00B7239F /* KVFlickrPhoto.h */,
+				589D3FF41A89396A00B7239F /* KVFlickrPhoto.m */,
+				1B0CE3941BAD89300025FB72 /* KVAPoDItem.h */,
+				1B0CE3951BAD89300025FB72 /* KVAPoDItem.m */,
+				589D3FF51A89396A00B7239F /* KVHTTPClient.h */,
+				589D3FF61A89396A00B7239F /* KVHTTPClient.m */,
+				1B0CE3901BAD7ECC0025FB72 /* KVAPoDClient.h */,
+				1B0CE3911BAD7ECC0025FB72 /* KVAPoDClient.m */,
+				589D3FF71A89396A00B7239F /* KVImageCache.h */,
+				589D3FF81A89396A00B7239F /* KVImageCache.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		589D3FF91A89396A00B7239F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				589D3FFA1A89396A00B7239F /* flickr_background.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		589D3FFB1A89396A00B7239F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				589D3FFC1A89396A00B7239F /* KVImageView.h */,
+				589D3FFD1A89396A00B7239F /* KVImageView.m */,
+				589D3FFE1A89396A00B7239F /* KVTableViewCell.h */,
+				589D3FFF1A89396A00B7239F /* KVTableViewCell.m */,
+				589D40001A89396A00B7239F /* KVTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		589D3FC51A89382600B7239F /* KVParallaxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589D3FE91A89382600B7239F /* Build configuration list for PBXNativeTarget "KVParallaxDemo" */;
+			buildPhases = (
+				589D3FC21A89382600B7239F /* Sources */,
+				589D3FC31A89382600B7239F /* Frameworks */,
+				589D3FC41A89382600B7239F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVParallaxDemo;
+			productName = KVParallaxDemo;
+			productReference = 589D3FC61A89382600B7239F /* KVParallaxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		589D3FDE1A89382600B7239F /* KVParallaxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 589D3FEC1A89382600B7239F /* Build configuration list for PBXNativeTarget "KVParallaxDemoTests" */;
+			buildPhases = (
+				589D3FDB1A89382600B7239F /* Sources */,
+				589D3FDC1A89382600B7239F /* Frameworks */,
+				589D3FDD1A89382600B7239F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				589D3FE11A89382600B7239F /* PBXTargetDependency */,
+			);
+			name = KVParallaxDemoTests;
+			productName = KVParallaxDemoTests;
+			productReference = 589D3FDF1A89382600B7239F /* KVParallaxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		589D3FBE1A89382600B7239F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KV;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = KV;
+				TargetAttributes = {
+					589D3FC51A89382600B7239F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					589D3FDE1A89382600B7239F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 589D3FC51A89382600B7239F;
+					};
+				};
+			};
+			buildConfigurationList = 589D3FC11A89382600B7239F /* Build configuration list for PBXProject "KVParallaxDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 589D3FBD1A89382600B7239F;
+			productRefGroup = 589D3FC71A89382600B7239F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				589D3FC51A89382600B7239F /* KVParallaxDemo */,
+				589D3FDE1A89382600B7239F /* KVParallaxDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		589D3FC41A89382600B7239F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589D3FD51A89382600B7239F /* Main.storyboard in Resources */,
+				589D3FDA1A89382600B7239F /* LaunchScreen.xib in Resources */,
+				589D40051A89396A00B7239F /* flickr_background.png in Resources */,
+				589D3FD71A89382600B7239F /* Images.xcassets in Resources */,
+				589D40081A89396A00B7239F /* KVTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589D3FDD1A89382600B7239F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		589D3FC21A89382600B7239F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589D40071A89396A00B7239F /* KVTableViewCell.m in Sources */,
+				589D40031A89396A00B7239F /* KVHTTPClient.m in Sources */,
+				589D40021A89396A00B7239F /* KVFlickrPhoto.m in Sources */,
+				1B0CE39B1BAD8A250025FB72 /* NSDictionary+KVExtras.m in Sources */,
+				589D40011A89396A00B7239F /* KVParallaxViewController.m in Sources */,
+				589D3FCF1A89382600B7239F /* KVAppDelegate.m in Sources */,
+				589D40061A89396A00B7239F /* KVImageView.m in Sources */,
+				589D3FCC1A89382600B7239F /* main.m in Sources */,
+				1B0CE3961BAD89300025FB72 /* KVAPoDItem.m in Sources */,
+				1B0CE3921BAD7ECC0025FB72 /* KVAPoDClient.m in Sources */,
+				589D40041A89396A00B7239F /* KVImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		589D3FDB1A89382600B7239F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0CE39C1BAD8A250025FB72 /* NSDictionary+KVExtras.m in Sources */,
+				589D3FE61A89382600B7239F /* KVParallaxDemoTests.m in Sources */,
+				1B0CE3931BAD7ECC0025FB72 /* KVAPoDClient.m in Sources */,
+				1B0CE3971BAD89300025FB72 /* KVAPoDItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		589D3FE11A89382600B7239F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 589D3FC51A89382600B7239F /* KVParallaxDemo */;
+			targetProxy = 589D3FE01A89382600B7239F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		589D3FD31A89382600B7239F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				589D3FD41A89382600B7239F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		589D3FD81A89382600B7239F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				589D3FD91A89382600B7239F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		589D3FE71A89382600B7239F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		589D3FE81A89382600B7239F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		589D3FEA1A89382600B7239F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = KVParallaxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kv.template;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		589D3FEB1A89382600B7239F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = KVParallaxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kv.template;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		589D3FED1A89382600B7239F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KVParallaxDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVParallaxDemo.app/KVParallaxDemo";
+			};
+			name = Debug;
+		};
+		589D3FEE1A89382600B7239F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KVParallaxDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVParallaxDemo.app/KVParallaxDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		589D3FC11A89382600B7239F /* Build configuration list for PBXProject "KVParallaxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589D3FE71A89382600B7239F /* Debug */,
+				589D3FE81A89382600B7239F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		589D3FE91A89382600B7239F /* Build configuration list for PBXNativeTarget "KVParallaxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589D3FEA1A89382600B7239F /* Debug */,
+				589D3FEB1A89382600B7239F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		589D3FEC1A89382600B7239F /* Build configuration list for PBXNativeTarget "KVParallaxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589D3FED1A89382600B7239F /* Debug */,
+				589D3FEE1A89382600B7239F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 589D3FBE1A89382600B7239F /* Project object */;
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Acf-k0-WWV">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Flickr Photos-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="KVParallaxViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flickr_background.png" translatesAutoresizingMaskIntoConstraints="NO" id="FTS-rm-nwz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="568" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="grq-M1-eis">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="Hqd-2A-mt8"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="TPP-eX-nhe"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="FTS-rm-nwz" secondAttribute="bottom" id="6Qb-iI-h3i"/>
+                            <constraint firstAttribute="trailing" secondItem="grq-M1-eis" secondAttribute="trailing" id="DAq-T6-QtP"/>
+                            <constraint firstAttribute="trailing" secondItem="FTS-rm-nwz" secondAttribute="trailing" id="DQu-5J-bMg"/>
+                            <constraint firstItem="FTS-rm-nwz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Ely-f1-m33"/>
+                            <constraint firstAttribute="bottom" secondItem="grq-M1-eis" secondAttribute="bottom" id="QO7-1o-PPo"/>
+                            <constraint firstItem="grq-M1-eis" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="TSn-nf-erH"/>
+                            <constraint firstItem="FTS-rm-nwz" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="qbw-sS-AkJ"/>
+                            <constraint firstItem="grq-M1-eis" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="z8b-lS-6Tw"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="Flickr Photos" id="PtF-A1-lMK"/>
+                    <connections>
+                        <outlet property="tableView" destination="grq-M1-eis" id="BB1-xn-Mel"/>
+                        <segue destination="IID-HU-7WB" kind="push" identifier="showPhotoDetails" id="Fcg-66-SxR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="629" y="128"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="GZw-cs-Qit">
+            <objects>
+                <viewController id="IID-HU-7WB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cj8-LZ-VkE"/>
+                        <viewControllerLayoutGuide type="bottom" id="rfM-sx-ikA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UGX-sJ-IBv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oHR-cc-fdz">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Info" id="cnR-sj-b45"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="041-vd-Co9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1014" y="128"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lSX-zu-rEa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Acf-k0-WWV" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GBL-vh-aB4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="qa5-Tb-p0d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iNC-eD-7tj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flickr_background.png" width="504" height="360"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
